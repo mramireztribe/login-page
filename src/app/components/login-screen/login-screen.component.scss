@@ -2,13 +2,20 @@
 
 .gradient-custom-2 {
     /* fallback for old browsers */
-    background: #fccb90;
+    background-image: url(../../../assets/images/istockphoto-1174480685-1024x1024.jpg);
+    background-color: black;
+    // opacity: 0.6;
+    
 
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    // background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    // background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.textShadow {
+    text-shadow: 5px 5px 5px black;
 }
 
 @media (min-width: 768px) {
